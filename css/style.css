@@ -453,10 +453,10 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right center no-repeat;
-	background-size: cover;
-	height:600px;
-	padding-top: 150px;
+	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background-size: contain;
+	padding:110px 0 100px 0;
+	height:auto;
 	background-color: #FBFBFB;
 }
 .hero h1 {
@@ -972,10 +972,11 @@ ul.social-buttons li:last-child {
 .contact-wrap {
 	position:relative;
 }
-.googlemaps {
+#googlemaps {
 	width:100%;
 	height:300px;
-	margin-top: -15px;
+	left:15px;
+	bottom:25px;
 }
 .contact {
 	margin-top:-20px!important;
