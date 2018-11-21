@@ -972,11 +972,10 @@ ul.social-buttons li:last-child {
 .contact-wrap {
 	position:relative;
 }
-#googlemaps {
+.googlemaps {
 	width:100%;
 	height:300px;
-	left:15px;
-	bottom:25px;
+	margin-top: -15px;
 }
 .contact {
 	margin-top:-20px!important;
